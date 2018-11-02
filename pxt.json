@@ -1,14 +1,16 @@
 {
     "name": "gamepad",
     "version": "0.0.1",
-    "description": "",
+    "description": "第三基地 手柄扩展",
     "dependencies": {
         "core": "*",
         "radio": "*"
     },
     "files": [
         "README.md",
-        "main.ts"
+        "main.ts",
+        "_locales/zh/gamepad-strings.json",
+        "_locales/zh/gamepad-jsdoc-strings.json"
     ],
     "testFiles": [
         "test.ts"

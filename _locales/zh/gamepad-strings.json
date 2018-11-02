@@ -1,0 +1,16 @@
+{
+  "DIR.D_L|block": "下左",
+  "DIR.D_R|block": "下右",
+  "DIR.D|block": "下",
+  "DIR.L|block": "左",
+  "DIR.NONE|block": "不按",
+  "DIR.R|block": "右",
+  "DIR.U_L|block": "上左",
+  "DIR.U_R|block": "上右",
+  "DIR.U|block": "上",
+  "gamepad.init|block": "初始化手柄",
+  "gamepad.isButtonPressed|block": "按钮 %pin |按下",
+  "gamepad.listenDirection|block": "摇杆方向 %pin ",
+  "gamepad.onButtonPressed|block": "当按钮 %pin |被按下时",
+  "{id:category}Gamepad": "手柄"
+}
