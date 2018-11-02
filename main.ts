@@ -1,12 +1,21 @@
 enum DIR {
+    //% block="NONE"
     NONE = 0,
+    //% block="U"
     U = 1,
+    //% block="D"
     D = 2,
+    //% block="L"
     L = 3,
+    //% block="R"
     R = 4,
+    //% block="U_L"
     U_L = 5,
+    //% block="U_R"
     U_R = 6,
+    //% block="D_L"
     D_L = 7,
+    //% block="D_R"
     D_R = 8
 }
 
@@ -113,7 +122,7 @@ namespace gamepad {
     //% blockId==Listen_Dir
     //% block="joystick direction %pin "
     //% weight=70
-    export function listenDirection (Dir: DIR): boolean {
+    export function listenDirection(Dir: DIR): boolean {
         let Get_Dir = DIR.NONE;
 
         let New_X = pins.analogReadPin(AnalogPin.P1);
