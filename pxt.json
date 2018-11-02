@@ -1,6 +1,6 @@
 {
     "name": "gamepad",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "第三基地 手柄扩展",
     "dependencies": {
         "core": "*",
